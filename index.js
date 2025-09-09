@@ -2,7 +2,7 @@ const express=require("express");
 const mongoose=require("mongoose");
 const cors=require("cors");
 const app=express();
-mongoose.connect("mongodb+srv://admin-ironwol:IronWol2004@ironwol.znds0nw.mongodb.net/patientinteractions",{useNewUrlParser:true});
+mongoose.connect("",{useNewUrlParser:true});
 app.use(cors());
 app.use(express.json());
 const InteractionSchema = new mongoose.Schema({
